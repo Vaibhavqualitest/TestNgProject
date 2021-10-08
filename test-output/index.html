@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\vaibhav.bajpai\AppData\Local\Temp\testng-eclipse-1528224218\testng-customsuite.xml</span>
+                    <span>C:\Users\vaibhav.bajpai\AppData\Local\Temp\testng-eclipse-358447549\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -189,10 +189,10 @@
 Build info: version: &apos;4.0.0-rc-2&apos;, revision: &apos;8d1e4aa5ae&apos;
 System info: host: &apos;QT-INNO-LT0939&apos;, ip: &apos;192.168.1.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef10ef63a8bfbeae867952d1dedc83f2, clickElement {id=97a88f71-777f-4d43-b408-b5bff656cb89}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\VAIBHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56100/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ef10ef63a8bfbeae867952d1dedc83f2)] -&gt; id: result_button_date]
-Session ID: ef10ef63a8bfbeae867952d1dedc83f2
+Command: [b6c1311fe926e09ef24794dda7a526ab, clickElement {id=d6946558-49c8-44c8-8b1f-e5ea5cebf509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\VAIBHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57989/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b6c1311fe926e09ef24794dda7a526ab)] -&gt; id: result_button_date]
+Session ID: b6c1311fe926e09ef24794dda7a526ab
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -207,7 +207,7 @@ Session ID: ef10ef63a8bfbeae867952d1dedc83f2
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at tests.TjTests.datetest(TjTests.java:151)
+	at tests.TjTests.datetest(TjTests.java:176)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -336,7 +336,7 @@ Session ID: ef10ef63a8bfbeae867952d1dedc83f2
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vaibhav.bajpai\AppData\Local\Temp\testng-eclipse-1528224218\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\vaibhav.bajpai\AppData\Local\Temp\testng-eclipse-358447549\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -345,7 +345,7 @@ Session ID: ef10ef63a8bfbeae867952d1dedc83f2
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.TjTests&quot;/&gt;
+      &lt;class name=&quot;tests.Runner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -387,50 +387,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'datetest')
+data.setCell(0, 1, 'dragNdDropTest')
 data.setCell(0, 2, 'tests.TjTests')
-data.setCell(0, 3, 1144);
+data.setCell(0, 3, 9124);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'dragNdDropTest')
+data.setCell(1, 1, 'datetest')
 data.setCell(1, 2, 'tests.TjTests')
-data.setCell(1, 3, 573);
+data.setCell(1, 3, 1381);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'radioButtontest')
+data.setCell(2, 1, 'tests')
 data.setCell(2, 2, 'tests.TjTests')
-data.setCell(2, 3, 155);
+data.setCell(2, 3, 477);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkboxtest')
+data.setCell(3, 1, 'numbertests')
 data.setCell(3, 2, 'tests.TjTests')
-data.setCell(3, 3, 150);
+data.setCell(3, 3, 471);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'buttontests')
+data.setCell(4, 1, 'textareatests')
 data.setCell(4, 2, 'tests.TjTests')
-data.setCell(4, 3, 149);
+data.setCell(4, 3, 433);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'textareatests')
+data.setCell(5, 1, 'radioButtontest')
 data.setCell(5, 2, 'tests.TjTests')
-data.setCell(5, 3, 148);
+data.setCell(5, 3, 431);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'numbertests')
+data.setCell(6, 1, 'checkboxtest')
 data.setCell(6, 2, 'tests.TjTests')
-data.setCell(6, 3, 136);
+data.setCell(6, 3, 301);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'dropdowntest')
 data.setCell(7, 2, 'tests.TjTests')
-data.setCell(7, 3, 129);
+data.setCell(7, 3, 247);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'tests')
+data.setCell(8, 1, 'buttontests')
 data.setCell(8, 2, 'tests.TjTests')
-data.setCell(8, 3, 128);
+data.setCell(8, 3, 216);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'linktests')
 data.setCell(9, 2, 'tests.TjTests')
-data.setCell(9, 3, 1);
+data.setCell(9, 3, 4);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -461,47 +461,87 @@ return data;
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10882 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">buttontests</span>
-                <span class="method-start">6734 ms</span>
+                <span class="method-start">15294 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15515 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkboxtest</span>
-                <span class="method-start">6886 ms</span>
+                <span class="method-start">19809 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20112 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">datetest</span>
-                <span class="method-start">7037 ms</span>
+                <span class="method-start">24443 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25830 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dragNdDropTest</span>
-                <span class="method-start">8184 ms</span>
+                <span class="method-start">30819 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39945 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dropdowntest</span>
-                <span class="method-start">8758 ms</span>
+                <span class="method-start">44805 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45053 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">linktests</span>
-                <span class="method-start">8888 ms</span>
+                <span class="method-start">49375 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49380 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">numbertests</span>
-                <span class="method-start">8890 ms</span>
+                <span class="method-start">54920 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55393 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">radioButtontest</span>
-                <span class="method-start">9027 ms</span>
+                <span class="method-start">60997 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61430 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">tests</span>
-                <span class="method-start">9183 ms</span>
+                <span class="method-start">67008 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67487 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">textareatests</span>
-                <span class="method-start">9312 ms</span>
+                <span class="method-start">73990 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

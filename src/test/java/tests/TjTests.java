@@ -13,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import cards.CheckBox;
 import cards.Date;
@@ -35,6 +36,26 @@ public class TjTests {
 		driver.manage().window().maximize();
 		driver.get("https://tanuj-vishnoi.github.io/site/examples/actions");
     }
+
+//	@DataProvider(name="Textdata")
+//	public Object[][] textdata(){
+//		Object[][] ob = new Object[1][2];
+//		ob[0][0]= "Rakesh";
+//		ob[0][1]= "Mahesh";
+//		return ob;
+//	}
+	
+//	@DataProvider(name = "TextData")
+//    public Object[][] textData() {
+//        return new Object[][] { { "Rakesh" }, { "Mahesh" } };
+//    }
+//	
+//	@Test(dataProvider="Textdata")
+//	public void runtest(String name) {
+//		WebElement wb = driver.findElement(By.id("text"));
+//		wb.clear();
+//		wb.sendKeys(name);
+//	}
 
 	
 	@Test(description = "Text card test.")

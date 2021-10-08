@@ -2,24 +2,36 @@
 <testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-08T11:11:37 IST" name="Default suite" finished-at="2021-10-08T11:11:40 IST" duration-ms="2759">
+  <suite started-at="2021-10-08T17:38:52 IST" name="Default suite" finished-at="2021-10-08T17:39:56 IST" duration-ms="63589">
     <groups>
     </groups>
-    <test started-at="2021-10-08T11:11:37 IST" name="Default test" finished-at="2021-10-08T11:11:40 IST" duration-ms="2759">
+    <test started-at="2021-10-08T17:38:52 IST" name="Default test" finished-at="2021-10-08T17:39:56 IST" duration-ms="63589">
       <class name="tests.TjTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:31 IST" name="setUp" finished-at="2021-10-08T11:11:37 IST" duration-ms="6702" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:38:42 IST" name="setUp" finished-at="2021-10-08T17:38:52 IST" duration-ms="10837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buttontests()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:37 IST" name="buttontests" description="Button card test." finished-at="2021-10-08T11:11:37 IST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:38:52 IST" name="setUp" finished-at="2021-10-08T17:38:57 IST" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buttontests()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:38:57 IST" name="buttontests" description="Button card test." finished-at="2021-10-08T17:38:57 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buttontests -->
-        <test-method signature="checkboxtest()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:37 IST" name="checkboxtest" description="Checkbox card test" finished-at="2021-10-08T11:11:38 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:38:57 IST" name="setUp" finished-at="2021-10-08T17:39:01 IST" duration-ms="4294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkboxtest()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:01 IST" name="checkboxtest" description="Checkbox card test" finished-at="2021-10-08T17:39:02 IST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkboxtest -->
-        <test-method signature="datetest()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:38 IST" name="datetest" description="Date card test" finished-at="2021-10-08T11:11:39 IST" duration-ms="1144" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:02 IST" name="setUp" finished-at="2021-10-08T17:39:06 IST" duration-ms="4330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="datetest()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:06 IST" name="datetest" description="Date card test" finished-at="2021-10-08T17:39:07 IST" duration-ms="1381" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <button onclick="actShow...(&quot;date&quot;)" id="result_button_date" class="w3-btn w3-round-xxlarge w3-teal w3-small">Result</button> is not clickable at point (914, 339). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
@@ -27,10 +39,10 @@
 Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
 System info: host: 'QT-INNO-LT0939', ip: '192.168.1.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef10ef63a8bfbeae867952d1dedc83f2, clickElement {id=97a88f71-777f-4d43-b408-b5bff656cb89}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\VAIBHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56100/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ef10ef63a8bfbeae867952d1dedc83f2)] -> id: result_button_date]
-Session ID: ef10ef63a8bfbeae867952d1dedc83f2]]>
+Command: [b6c1311fe926e09ef24794dda7a526ab, clickElement {id=d6946558-49c8-44c8-8b1f-e5ea5cebf509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\VAIBHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57989/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b6c1311fe926e09ef24794dda7a526ab)] -> id: result_button_date]
+Session ID: b6c1311fe926e09ef24794dda7a526ab]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button onclick="actShow...(&quot;date&quot;)" id="result_button_date" class="w3-btn w3-round-xxlarge w3-teal w3-small">Result</button> is not clickable at point (914, 339). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
@@ -38,10 +50,10 @@ Session ID: ef10ef63a8bfbeae867952d1dedc83f2]]>
 Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
 System info: host: 'QT-INNO-LT0939', ip: '192.168.1.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef10ef63a8bfbeae867952d1dedc83f2, clickElement {id=97a88f71-777f-4d43-b408-b5bff656cb89}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\VAIBHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56100/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (ef10ef63a8bfbeae867952d1dedc83f2)] -> id: result_button_date]
-Session ID: ef10ef63a8bfbeae867952d1dedc83f2
+Command: [b6c1311fe926e09ef24794dda7a526ab, clickElement {id=d6946558-49c8-44c8-8b1f-e5ea5cebf509}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\VAIBHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57989/devtoo..., se:cdpVersion: 94.0.4606.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b6c1311fe926e09ef24794dda7a526ab)] -> id: result_button_date]
+Session ID: b6c1311fe926e09ef24794dda7a526ab
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -56,7 +68,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at tests.TjTests.datetest(TjTests.java:151)
+at tests.TjTests.datetest(TjTests.java:176)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,31 +103,59 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datetest -->
-        <test-method signature="dragNdDropTest()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:39 IST" name="dragNdDropTest" description="Drag and Drop Test" finished-at="2021-10-08T11:11:39 IST" duration-ms="573" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:07 IST" name="setUp" finished-at="2021-10-08T17:39:12 IST" duration-ms="4989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dragNdDropTest()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:12 IST" name="dragNdDropTest" description="Drag and Drop Test" finished-at="2021-10-08T17:39:22 IST" duration-ms="9124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragNdDropTest -->
-        <test-method signature="dropdowntest()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:39 IST" name="dropdowntest" description="Dropdown card test" finished-at="2021-10-08T11:11:39 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:22 IST" name="setUp" finished-at="2021-10-08T17:39:26 IST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropdowntest()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:26 IST" name="dropdowntest" description="Dropdown card test" finished-at="2021-10-08T17:39:27 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdowntest -->
-        <test-method signature="linktests()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:39 IST" name="linktests" description="Link card test." finished-at="2021-10-08T11:11:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:27 IST" name="setUp" finished-at="2021-10-08T17:39:31 IST" duration-ms="4321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linktests()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:31 IST" name="linktests" description="Link card test." finished-at="2021-10-08T17:39:31 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linktests -->
-        <test-method signature="numbertests()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:40 IST" name="numbertests" description="Number card test." finished-at="2021-10-08T11:11:40 IST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:31 IST" name="setUp" finished-at="2021-10-08T17:39:37 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="numbertests()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:37 IST" name="numbertests" description="Number card test." finished-at="2021-10-08T17:39:37 IST" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- numbertests -->
-        <test-method signature="radioButtontest()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:40 IST" name="radioButtontest" description="Radio card tests" finished-at="2021-10-08T11:11:40 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:37 IST" name="setUp" finished-at="2021-10-08T17:39:43 IST" duration-ms="5604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="radioButtontest()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:43 IST" name="radioButtontest" description="Radio card tests" finished-at="2021-10-08T17:39:43 IST" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButtontest -->
-        <test-method signature="tests()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:40 IST" name="tests" description="Text card test." finished-at="2021-10-08T11:11:40 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:43 IST" name="setUp" finished-at="2021-10-08T17:39:49 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tests()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:49 IST" name="tests" description="Text card test." finished-at="2021-10-08T17:39:49 IST" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tests -->
-        <test-method signature="textareatests()[pri:0, instance:tests.TjTests@243c4f91]" started-at="2021-10-08T11:11:40 IST" name="textareatests" description="Textarea card test." finished-at="2021-10-08T11:11:40 IST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TjTests@3427b02d]" started-at="2021-10-08T17:39:49 IST" name="setUp" finished-at="2021-10-08T17:39:56 IST" duration-ms="6503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="textareatests()[pri:0, instance:tests.TjTests@3427b02d, instance params:[]]" started-at="2021-10-08T17:39:56 IST" name="textareatests" description="Textarea card test." finished-at="2021-10-08T17:39:56 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textareatests -->
