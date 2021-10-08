@@ -1,6 +1,9 @@
 package tests;
 
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,6 +26,7 @@ public class TjTests {
 	
 	public WebDriver driver;
 	
+	@BeforeMethod
 	@BeforeSuite
     public void setUp()
     {
@@ -40,7 +44,7 @@ public class TjTests {
 		txt.textTest(driver).sendKeys("Vaibhav");
 		txt.textResultTest(driver).click();
 		String resultText = txt.textResultText(driver).getText();
-		Assert.assertEquals(resultText, "You entered text: \"Vaibhav\"");
+		AssertJUnit.assertEquals(resultText, "You entered text: \"Vaibhav\"");
 
 	}
 
@@ -52,7 +56,7 @@ public class TjTests {
 		txt.numberTest(driver).sendKeys("10");
 		txt.numberResultTest(driver).click();
 		String resultNum= txt.numberResultText(driver).getText();
-		Assert.assertEquals(resultNum, "You entered number: \"10\"");
+		AssertJUnit.assertEquals(resultNum, "You entered number: \"10\"");
 		
 	}
 	
@@ -63,21 +67,21 @@ public class TjTests {
 		txt.textAreaTest(driver).sendKeys("This is Vaibhav here");
 		txt.textAreabuttonTest(driver).click();
 		String resultNum= txt.textAreaResultText(driver).getText();
-		Assert.assertEquals(resultNum, "You entered text area: \"This is Vaibhav here\"");
+		AssertJUnit.assertEquals(resultNum, "You entered text area: \"This is Vaibhav here\"");
 	}
 	
 	@Test(description = "Button card test.")
 	public void buttontests() {
 		TextNumberTextAreaButton txt= new TextNumberTextAreaButton();
 		boolean btn1= txt.button1Test(driver).isEnabled();
-		Assert.assertEquals(btn1, true);
+		AssertJUnit.assertEquals(btn1, true);
 		boolean btn2= txt.button2Test(driver).isEnabled();
-		Assert.assertEquals(btn2, false);
+		AssertJUnit.assertEquals(btn2, false);
 		txt.button1Test(driver).click();
 		String resultText= txt.button1ResultTest(driver).getText();
-		Assert.assertEquals(resultText, "I am here!");
+		AssertJUnit.assertEquals(resultText, "I am here!");
 		boolean btn2Appear= txt.button2Test(driver).isEnabled();
-		Assert.assertEquals(btn2Appear, true);
+		AssertJUnit.assertEquals(btn2Appear, true);
 	}
 	
 	@Test(description = "Link card test.")
@@ -100,17 +104,17 @@ public class TjTests {
 		WebElement op1=cb.checkbox1(driver);
 		op1.click();
 		boolean resop1=op1.isSelected();
-		Assert.assertEquals(resop1, true);
+		AssertJUnit.assertEquals(resop1, true);
 		
 		WebElement op2=cb.checkbox2(driver);
 		op2.click();
 		boolean resop2=op2.isSelected();
-		Assert.assertEquals(resop2, true);
+		AssertJUnit.assertEquals(resop2, true);
 		
 		WebElement op3=cb.checkbox3(driver);
 		op3.click();
 		boolean resop3=op3.isSelected();
-		Assert.assertEquals(resop3, true);
+		AssertJUnit.assertEquals(resop3, true);
 	}
 	
 	@Test(description = "Radio card tests")
@@ -119,17 +123,17 @@ public class TjTests {
 		WebElement op1 = radio.radio1(driver);
 		op1.click();
 		boolean resop1=op1.isSelected();
-		Assert.assertEquals(resop1, true);
+		AssertJUnit.assertEquals(resop1, true);
 		
 		WebElement op2=radio.radio2(driver);
 		op2.click();
 		boolean resop2=op2.isSelected();
-		Assert.assertEquals(resop2, true);
+		AssertJUnit.assertEquals(resop2, true);
 		
 		WebElement op3=radio.radio3(driver);
 		op3.click();
 		boolean resop3=op3.isSelected();
-		Assert.assertEquals(resop3, true);
+		AssertJUnit.assertEquals(resop3, true);
 	}
 	
 	@Test(description = "Dropdown card test")
@@ -151,7 +155,7 @@ public class TjTests {
 		resultbutton.click();
 		
 		WebElement resulttext=date.datetext(driver);
-		Assert.assertEquals(resulttext, "You entered date: 11/09/2020");
+		AssertJUnit.assertEquals(resulttext, "You entered date: 11/09/2020");
 	}
 	
 	@Test(description = "Drag and Drop Test")
